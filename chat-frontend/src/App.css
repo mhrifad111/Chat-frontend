@@ -1,0 +1,32 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    border: 1px solid red;
+    display: flex;
+}
+.nav-container{
+    border: 1px solid blue;
+
+}
+.side-profile-container{
+    border: 1px solid gold;
+}
+.chat-body-container{
+    border: 1px solid springgreen;
+    display: flex;
+}
+.feed-container{
+    border: 1px solid greenyellow;
+}
