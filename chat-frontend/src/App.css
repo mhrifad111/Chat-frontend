@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
-    flex-direction: column;
+    height: 800px;
+    flex-flow: wrap column;
 }
 
 body {
@@ -15,13 +15,16 @@ body {
 .main-container {
     border: 1px solid red;
     display: flex;
+    height: 600px;
 }
 .nav-container{
     border: 1px solid blue;
+    width: 80px;
 
 }
 .side-profile-container{
     border: 1px solid gold;
+    width: 180px;
 }
 .chat-body-container{
     border: 1px solid springgreen;
@@ -29,4 +32,29 @@ body {
 }
 .feed-container{
     border: 1px solid greenyellow;
+    width: 500px;
+}
+.nav-profile-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    border-left: 2px solid darkblue;
+}
+.nav-profile-container img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+
+}
+.contact-list-container{
+    width: 250px;
+}
+.nav-chatBody-message{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    border-left: 2px solid darkblue;
+    font-size: 30px;
+    color: red;
 }

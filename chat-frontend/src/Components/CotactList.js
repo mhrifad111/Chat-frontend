@@ -4,7 +4,6 @@ const ContactList = () => {
     return (
         <div className={'contact-list-container'}>
             <span>ContactList</span>
-
         </div>
     );
 }
